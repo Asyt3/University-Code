@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Chess {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        
 
         boolean isYourColorHere;
         boolean canmachineGunMove;
@@ -13,7 +13,9 @@ public class Chess {
         boolean canDwarfMoveForward;
         boolean canKingMove;
         boolean canDonkeyMove;
-
+        
+        Scanner scanner = new Scanner(System.in);
+        
         //Variables for dwarf limit
 
         boolean gameOver = false;
